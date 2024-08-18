@@ -4,10 +4,12 @@ import Navbar from './components/navbar/Navbar';
 
 function App() {
   return (
-    <div className='h-screen background'>
-      <div className='mx-24 h-screen'>
+    <div className='h-screen background overflow-auto overscroll-auto'>
+      <div className='mx-3 md:mx-16 lg:mx-24 h-screen'>
         <Navbar/>
         <Home/>
+        <div className='h-10'/>
+        x
       </div>
     </div>
   )
