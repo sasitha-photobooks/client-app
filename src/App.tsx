@@ -9,7 +9,6 @@ function App() {
         <Navbar/>
         <Home/>
         <div className='h-10'/>
-        x
       </div>
     </div>
   )
