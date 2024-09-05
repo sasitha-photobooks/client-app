@@ -46,7 +46,7 @@ export default function Navbar() {
                    {isOpen && <XMarkIcon className="size-6 text-primary"/>}
                 </button>
             </div>
-            {isOpen && <div className='grid my-10 grid-flow-row gap-9'>
+            {isOpen && <div className='font-display grid mt-10 mb-5 grid-flow-row gap-9'>
                 {navigation.map(item => {
                     return (
                         <div className={`${item.current? 'font-semibold' : 'font-light'} text-lg text-center`}>{item.name}</div>
